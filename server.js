@@ -25,7 +25,7 @@ app.use("/api/v1", booksRoutes)
 
 app.route("/")
     .get((req, res) => {
-        res.send("<h1>MogoDB + Mongoose Example</h1>")
+        res.send("<h1>MongoDB + Mongoose Example</h1>")
     })
 
 app.listen(SERVER_PORT, () =>{
